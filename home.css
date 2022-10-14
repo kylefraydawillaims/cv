@@ -1,0 +1,172 @@
+@font-face {
+    font-family: santos;
+    src: url();
+}
+*{
+    margin: 0px;
+}
+.header{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(050px,1fr));
+}
+.person{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1px;
+    
+}
+.sign{
+    font-size: 20px;
+}
+.fa-solid{
+    font-size: 25px;
+}
+.fa-ellipsis{
+    margin-top: 15.0px;
+    
+    font-size: 40px;
+
+}
+.search{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(194, 194, 194);
+    height: 40px;
+    
+}
+.fa-magnifying-glass{
+
+    
+    font-size: 20px;
+}
+.under{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(090px,1fr));
+    background-color: rgb(255, 166, 0);
+
+}
+#sport{
+    grid-area: 1/1/2/-1;
+    border-bottom: 2px solid black;
+    
+}
+.common{
+    grid-area: 2/11/2/14;
+}
+.more{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.middle{
+    margin-top: 200px;
+    margin-left: 45px;
+    width: 70%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    
+
+
+    
+}
+.middle>div{
+
+    border: none;
+}
+#first{
+    grid-area:1/1/6/3 ;
+}
+.two{
+    grid-area: 1/3/3/4;
+}
+.don{
+    grid-area: 3/3/7/4;
+}
+.unde{
+    margin-left: 45px;
+    margin-right: 45px;
+    display: grid;
+    grid-template-columns: auto auto auto   ;
+}
+.unde>div{
+    border:none;
+}
+.unde1{
+    grid-area: 1/1/4/2;
+}
+.dwn0{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 5px;
+    margin-left: 45px;
+}
+.dwn0>.dwn1{
+    width: 80%;
+    text-decoration: none;
+    
+}
+.next{
+    margin-left: 45px;
+}
+#ft{
+    display: flex;
+    flex-direction: row;
+    margin-left: 45px;
+    justify-content: space-between;
+    
+}
+.twitter{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.facebook{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+.instagram{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.youtube{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+.fa-brands{
+    font-size: 100px;
+}
+.dwn9{
+    display: flex;
+    flex-direction: row;
+    margin-left: 45px;
+    
+    
+}
+.dwn9>h3{
+    margin: 30px;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    height: 100px;
+}
+#end{
+    color: white;
+    background-color: black;
+}
